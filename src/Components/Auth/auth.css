@@ -1,5 +1,6 @@
 .auth-cont {
   position: absolute;
+/*   position: relative; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -35,6 +36,7 @@ p{
 }
 .profile-pic {
   position: relative;
+/*   position: absolute; */
   margin: auto;
   border-radius: 50%;
   overflow: hidden;
@@ -63,6 +65,7 @@ p{
   color: #5116dd;
   margin-top: 5px;
   text-decoration: none;
+/*   text-decoration: underline; */
 }
 .contract {
   font-size: 0.8rem;
