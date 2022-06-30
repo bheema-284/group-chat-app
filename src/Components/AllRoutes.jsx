@@ -5,12 +5,12 @@ import { HomeComp } from "./Home";
 
 export const AllRoutes = () => {
   return (
-    <>
+    <div>
       <Routes>
         <Route path="/" element={<HomeComp />}></Route>
         <Route path="/register" element={<RegisterComp />}></Route>
         <Route path="/login" element={<LoginComp />}></Route>
       </Routes>
-    </>
+    <div/>
   );
 };
