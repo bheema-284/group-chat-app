@@ -23,6 +23,7 @@ export const HomeComp = () => {
 };
 
 const MessageStarter = ({ pic, name }) => {
+  
   return (
     <div className="chattingpage start-msg">
       <div>
