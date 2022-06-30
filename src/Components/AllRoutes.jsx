@@ -11,6 +11,6 @@ export const AllRoutes = () => {
         <Route path="/register" element={<RegisterComp />}></Route>
         <Route path="/login" element={<LoginComp />}></Route>
       </Routes>
-    <div/>
+    </div>
   );
 };
