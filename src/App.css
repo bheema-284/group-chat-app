@@ -4,7 +4,7 @@ body {
   background-size: cover;
   box-sizing: border-box;
 }
-/* side nav bar */
+/* side navigation bar */
 .side-nav {
   min-width: 70px;
   max-width: 70px;
@@ -46,8 +46,7 @@ body {
   color: #173859;
   width: 26%;
   height: 100vh;
-  min-width: 270px;
-  /* background-color: rgb(117, 177, 5); */
+  min-width: 270px;  
   background-color: rgb(230, 255, 224);
 }
 .search-cont {
