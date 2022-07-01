@@ -102,6 +102,7 @@ export default function CustomizedDialogs() {
   };
   const handleSubmit = () => {
     //   setOpen(false);
+    //   setOpen(true);
     if (groupChatName === "") {
       setuserError({
         error: true,
