@@ -48,12 +48,10 @@ export const MyChat = () => {
     <div className="mychat-cont">
       <div>
         <div className="notification">
-          <h2>Chats</h2>
-          {/* <NotificationsIcon /> */}
+          <h2>Chats</h2>         
           <Badge badgeContent={notification} color="error">
             <Notificationcomp />
-          </Badge>
-          {/* <AddIcon /> */}
+          </Badge>         
         </div>
         <div className="search-cont">
           <SearchIcon />
